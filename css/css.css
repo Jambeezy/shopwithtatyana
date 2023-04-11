@@ -44,6 +44,12 @@ body {
     color: #CFCFCF;
 }
 
+.nav-link:hover {
+     box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+}
+
+
+
 .nav-link:active {
     padding: 5px 19px;
     background-color: rgba(255, 255, 255, 1);
@@ -64,6 +70,10 @@ body {
     border-radius: 20px;
 }
 
+.nav-categories__link:hover {
+    box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+}
+
 .nav-categories__link:active {
     padding: 3.5px 14px;
     border: 1px solid #E9E9E9;
@@ -78,6 +88,10 @@ body {
 }
 
 /* PRODUCT */
+
+.product__img {
+    max-width: 170px;
+}
 
 .product__card {
     box-sizing: content-box;
@@ -150,6 +164,7 @@ body {
 .product__list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin-top: 35px;
 }
 
